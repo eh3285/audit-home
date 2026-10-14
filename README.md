@@ -27,6 +27,8 @@ The original model notebooks and competition datasets are sourced from Kaggle an
 
 ## Project Team
 
-Ashley Funes, Jenny Hong, Emma Zhang, Sarah Liu
+**Student Researchers:** Emma Zhang, Ashley Funes, Jenny Hong, Sarah Liu
+
+**Course Instructors:** Professor Julia Stoyanovich and Professor Mateo Dulce Rubio 
 
 **Status:** Work in progress.
