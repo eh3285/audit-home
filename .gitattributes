@@ -1,1 +1,8 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+home_credit_lgbm_model.pkl filter=lfs diff=lfs merge=lfs -text
+predictions_lightgbm.csv filter=lfs diff=lfs merge=lfs -text
+rf_base_model.pkl filter=lfs diff=lfs merge=lfs -text
+rf_domain_model.pkl filter=lfs diff=lfs merge=lfs -text
+predictions_rf_domain.csv filter=lfs diff=lfs merge=lfs -text
+predicitions_rf_base.csv filter=lfs diff=lfs merge=lfs -text
+predictions_rf_base.csv filter=lfs diff=lfs merge=lfs -text
