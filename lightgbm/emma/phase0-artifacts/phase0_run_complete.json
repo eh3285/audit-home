@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-10T04:59:32.461397+00:00",
+  "status": "Passed Phase 0 runtime checks",
+  "data_dir": "/content",
+  "artifact_dir": "/content/audit_artifacts/phase0",
+  "n_labeled": 307511,
+  "n_features": 486,
+  "cv_splits": 5,
+  "primary_metric": "OOF ROC-AUC",
+  "secondary_metrics": [
+    "OOF average precision",
+    "OOF Brier score",
+    "OOF log loss",
+    "fold ROC-AUC mean/std"
+  ],
+  "saved_artifacts": [
+    "environment.json",
+    "raw_file_inventory.csv",
+    "raw_population_summary.json",
+    "feature_schema.json",
+    "category_codebook.json",
+    "feature_missingness.csv",
+    "oof_predictions.csv",
+    "audit_oof_with_raw_attributes.csv",
+    "fold_metrics.csv",
+    "baseline_metrics.json",
+    "lightgbm_fold_01.txt",
+    "lightgbm_fold_02.txt",
+    "lightgbm_fold_03.txt",
+    "lightgbm_fold_04.txt",
+    "lightgbm_fold_05.txt"
+  ]
+}

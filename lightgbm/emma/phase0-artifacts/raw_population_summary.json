@@ -1,0 +1,29 @@
+{
+  "train_rows": 307511,
+  "competition_test_rows": 48744,
+  "train_columns_including_target": 122,
+  "test_columns": 121,
+  "label_1_count": 24825,
+  "label_1_rate": 0.08072881945686496,
+  "unique_train_ids": 307511,
+  "unique_test_ids": 48744,
+  "days_employed_365243_train": 55374,
+  "days_employed_365243_test": 9274,
+  "protected_or_proxy_attributes_preserved": [
+    "CODE_GENDER",
+    "DAYS_BIRTH",
+    "NAME_EDUCATION_TYPE",
+    "NAME_FAMILY_STATUS",
+    "NAME_INCOME_TYPE",
+    "AMT_INCOME_TOTAL",
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "DAYS_EMPLOYED",
+    "EXT_SOURCE_1",
+    "EXT_SOURCE_2",
+    "EXT_SOURCE_3",
+    "FLAG_OWN_CAR",
+    "FLAG_OWN_REALTY",
+    "REGION_RATING_CLIENT"
+  ]
+}

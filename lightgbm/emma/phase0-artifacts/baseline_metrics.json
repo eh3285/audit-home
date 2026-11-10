@@ -1,0 +1,38 @@
+{
+  "n_labeled": 307511,
+  "default_rate": 0.08072881945686496,
+  "roc_auc_oof": 0.7958981748661821,
+  "pr_auc_oof_average_precision": 0.2916650261300696,
+  "brier_score_oof": 0.0653157887572827,
+  "log_loss_oof": 0.23412573238818343,
+  "fold_auc_mean": 0.7959370232063481,
+  "fold_auc_std_sample": 0.004266875024716769,
+  "cv_splits": 5,
+  "seed": 42,
+  "early_stopping_rounds": 100,
+  "lightgbm_params": {
+    "n_estimators": 2000,
+    "learning_rate": 0.015,
+    "max_depth": 13,
+    "num_leaves": 60,
+    "colsample_bytree": 0.613,
+    "subsample": 0.708,
+    "max_bin": 407,
+    "reg_alpha": 10,
+    "reg_lambda": 15,
+    "min_child_weight": 6,
+    "min_child_samples": 165,
+    "n_jobs": 4,
+    "random_state": 42,
+    "verbosity": -1,
+    "metric": "auc"
+  },
+  "model_paths": [
+    "audit_artifacts/phase0/lightgbm_fold_01.txt",
+    "audit_artifacts/phase0/lightgbm_fold_02.txt",
+    "audit_artifacts/phase0/lightgbm_fold_03.txt",
+    "audit_artifacts/phase0/lightgbm_fold_04.txt",
+    "audit_artifacts/phase0/lightgbm_fold_05.txt"
+  ],
+  "evaluation_note": "All pooled scores use OOF predictions, not training scores."
+}

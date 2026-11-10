@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "scipy": "1.16.3",
+    "shap": "0.54.1"
+  },
+  "input_directory": "/content",
+  "expected_input_files": [
+    "application_train.csv",
+    "application_test.csv",
+    "previous_application.csv",
+    "bureau.csv",
+    "bureau_balance.csv",
+    "POS_CASH_balance.csv",
+    "installments_payments.csv",
+    "credit_card_balance.csv"
+  ]
+}
