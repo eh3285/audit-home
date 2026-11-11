@@ -1,0 +1,222 @@
+{
+  "NAME_CONTRACT_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Cash loans",
+      "1": "Revolving loans"
+    }
+  },
+  "CODE_GENDER": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "M",
+      "1": "F",
+      "2": "XNA"
+    }
+  },
+  "FLAG_OWN_CAR": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "N",
+      "1": "Y"
+    }
+  },
+  "FLAG_OWN_REALTY": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Y",
+      "1": "N"
+    }
+  },
+  "NAME_TYPE_SUITE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Unaccompanied",
+      "1": "Family",
+      "2": "Spouse, partner",
+      "3": "Children",
+      "4": "Other_A",
+      "5": "Other_B",
+      "6": "Group of people"
+    }
+  },
+  "NAME_INCOME_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Working",
+      "1": "State servant",
+      "2": "Commercial associate",
+      "3": "Pensioner",
+      "4": "Unemployed",
+      "5": "Student",
+      "6": "Businessman",
+      "7": "Maternity leave"
+    }
+  },
+  "NAME_EDUCATION_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Secondary / secondary special",
+      "1": "Higher education",
+      "2": "Incomplete higher",
+      "3": "Lower secondary",
+      "4": "Academic degree"
+    }
+  },
+  "NAME_FAMILY_STATUS": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Single / not married",
+      "1": "Married",
+      "2": "Civil marriage",
+      "3": "Widow",
+      "4": "Separated",
+      "5": "Unknown"
+    }
+  },
+  "NAME_HOUSING_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "House / apartment",
+      "1": "Rented apartment",
+      "2": "With parents",
+      "3": "Municipal apartment",
+      "4": "Office apartment",
+      "5": "Co-op apartment"
+    }
+  },
+  "OCCUPATION_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Laborers",
+      "1": "Core staff",
+      "2": "Accountants",
+      "3": "Managers",
+      "4": "Drivers",
+      "5": "Sales staff",
+      "6": "Cleaning staff",
+      "7": "Cooking staff",
+      "8": "Private service staff",
+      "9": "Medicine staff",
+      "10": "Security staff",
+      "11": "High skill tech staff",
+      "12": "Waiters/barmen staff",
+      "13": "Low-skill Laborers",
+      "14": "Realty agents",
+      "15": "Secretaries",
+      "16": "IT staff",
+      "17": "HR staff"
+    }
+  },
+  "WEEKDAY_APPR_PROCESS_START": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "WEDNESDAY",
+      "1": "MONDAY",
+      "2": "THURSDAY",
+      "3": "SUNDAY",
+      "4": "SATURDAY",
+      "5": "FRIDAY",
+      "6": "TUESDAY"
+    }
+  },
+  "ORGANIZATION_TYPE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Business Entity Type 3",
+      "1": "School",
+      "2": "Government",
+      "3": "Religion",
+      "4": "Other",
+      "5": "XNA",
+      "6": "Electricity",
+      "7": "Medicine",
+      "8": "Business Entity Type 2",
+      "9": "Self-employed",
+      "10": "Transport: type 2",
+      "11": "Construction",
+      "12": "Housing",
+      "13": "Kindergarten",
+      "14": "Trade: type 7",
+      "15": "Industry: type 11",
+      "16": "Military",
+      "17": "Services",
+      "18": "Security Ministries",
+      "19": "Transport: type 4",
+      "20": "Industry: type 1",
+      "21": "Emergency",
+      "22": "Security",
+      "23": "Trade: type 2",
+      "24": "University",
+      "25": "Transport: type 3",
+      "26": "Police",
+      "27": "Business Entity Type 1",
+      "28": "Postal",
+      "29": "Industry: type 4",
+      "30": "Agriculture",
+      "31": "Restaurant",
+      "32": "Culture",
+      "33": "Hotel",
+      "34": "Industry: type 7",
+      "35": "Trade: type 3",
+      "36": "Industry: type 3",
+      "37": "Bank",
+      "38": "Industry: type 9",
+      "39": "Insurance",
+      "40": "Trade: type 6",
+      "41": "Industry: type 2",
+      "42": "Transport: type 1",
+      "43": "Industry: type 12",
+      "44": "Mobile",
+      "45": "Trade: type 1",
+      "46": "Industry: type 5",
+      "47": "Industry: type 10",
+      "48": "Legal Services",
+      "49": "Advertising",
+      "50": "Trade: type 5",
+      "51": "Cleaning",
+      "52": "Industry: type 13",
+      "53": "Trade: type 4",
+      "54": "Telecom",
+      "55": "Industry: type 8",
+      "56": "Realtor",
+      "57": "Industry: type 6"
+    }
+  },
+  "FONDKAPREMONT_MODE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "reg oper account",
+      "1": "org spec account",
+      "2": "reg oper spec account",
+      "3": "not specified"
+    }
+  },
+  "HOUSETYPE_MODE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "block of flats",
+      "1": "terraced house",
+      "2": "specific housing"
+    }
+  },
+  "WALLSMATERIAL_MODE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "Stone, brick",
+      "1": "Block",
+      "2": "Panel",
+      "3": "Mixed",
+      "4": "Wooden",
+      "5": "Others",
+      "6": "Monolithic"
+    }
+  },
+  "EMERGENCYSTATE_MODE": {
+    "missing_code": -1,
+    "code_to_category": {
+      "0": "No",
+      "1": "Yes"
+    }
+  }
+}
