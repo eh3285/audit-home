@@ -1,0 +1,23 @@
+{
+  "source_phase0": "/content",
+  "phase1_output_dir": "audit_artifacts/phase1",
+  "sample_seed": 42,
+  "per_fold_sample_limit": 600,
+  "sample_n": 3000,
+  "n_features": 486,
+  "n_local_cases": 8,
+  "shap_unit": "raw binary margin (log-odds of TARGET=1)",
+  "shap_algorithm": "LightGBM exact tree-path-dependent pred_contrib; held-out fold models",
+  "max_additivity_error_raw_margin": 3.108624468950438e-14,
+  "max_fold_model_vs_saved_oof_probability_error": 9.8879238130678e-17,
+  "small_group_threshold": 40,
+  "caveats": [
+    "Descriptive interpretation, not a causal fairness test",
+    "Feature matrix recreated with original eight-file preprocessing",
+    "OOF folds use validation labels for early stopping",
+    "Nominal categories are ordinal-coded in original model",
+    "Inf, missing values, DAYS_EMPLOYED sentinel and index artifact were not changed",
+    "No real lender decision threshold is available",
+    "Globally sampled held-out explanations; local examples intentionally extreme"
+  ]
+}
