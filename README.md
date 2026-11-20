@@ -15,6 +15,10 @@ We examine two independently developed machine learning approaches:
 1. **LightGBM:** A gradient-boosted decision tree model ([Original Kaggle Notebook](https://www.kaggle.com/code/kloudnine/home-credit-default-risk/notebook)).
 2. **Neural Network:** A neural network incorporating convolution over previous loan applications and credit bureau records ([Original Kaggle Notebook](https://www.kaggle.com/code/aaraneo/nn-with-convolution-over-prev-app-and-bureau/log)).
 
+## Early Findings
+By running a **SHAP analysis** on the final LightGBM model, we found that across the aggregate features, the engineered feature `APPS_EXT_SOURCE_MEAN` has the highest feature importance. This holds true across subpopulations by gender and education level, although intersections in marginalized characteristics are not yet investigated. 
+
+
 ## Repository Structure
 
 - `data/` — Home Credit competition datasets
