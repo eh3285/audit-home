@@ -24,6 +24,7 @@ By running a **SHAP analysis** on the final LightGBM model, we found that across
 - `data/` — Home Credit competition datasets
 - `lightgbm/` — LightGBM model and audit materials
 - `neuralnetwork/` — Neural network model and audit materials
+- 'Group46_Notebooks.zip` — Zip file submission for project draft notebook deliverable 
 
 ## Attribution
 
